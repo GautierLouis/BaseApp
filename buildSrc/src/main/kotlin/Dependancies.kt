@@ -50,6 +50,9 @@ object Deps {
     const val ktorCore = "io.ktor:ktor-client-core:${Version.ktor}"
     const val ktorEngine = "io.ktor:ktor-client-okhttp:${Version.ktor}"
     const val ktorLogging = "io.ktor:ktor-client-logging:${Version.ktor}"
+    const val ktorAuth = "io.ktor:ktor-client-auth:${Version.ktor}"
+    const val ktorSerialization = "io.ktor:ktor-serialization-kotlinx-json:${Version.ktor}"
+    const val ktorContentNegotiation = "io.ktor:ktor-client-content-negotiation:${Version.ktor}"
 
     const val moshi = "com.squareup.moshi:moshi-kotlin:1.14.0"
 

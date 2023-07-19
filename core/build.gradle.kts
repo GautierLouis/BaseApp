@@ -7,3 +7,7 @@ android {
     namespace = "com.louis.core"
 
 }
+
+dependencies {
+    api(project(":core:network"))
+}
