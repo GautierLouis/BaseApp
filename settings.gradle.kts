@@ -15,6 +15,14 @@ dependencyResolutionManagement {
 
 rootProject.name = "BaseApp"
 include(":app")
-include(":core")
+
 include(":feature:login")
 include(":feature:home")
+
+include(":designsystem")
+
+include(":core")
+include(":core:network")
+include(":core:database")
+
+include(":data:authentication")
