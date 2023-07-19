@@ -29,6 +29,7 @@ class DepsPlugin: Plugin<Project> {
                     testInstrumentationRunner = DepsTest.instrumentationRunner
                 }
 
+
                 // Configure common proguard file settings.
                 val proguardFile = "proguard-rules.pro"
                 when (this) {
@@ -57,6 +58,7 @@ class DepsPlugin: Plugin<Project> {
                         jvmTarget = JavaVersion.VERSION_17.toString()
                     }
                 }
+
 
                 // Adds required dependencies for all modules.
                 project.dependencies {

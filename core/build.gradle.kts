@@ -5,10 +5,5 @@ plugins {
 
 android {
     namespace = "com.louis.core"
-    buildTypes {
-        getByName("debug") {
-            enableUnitTestCoverage = true
-            enableAndroidTestCoverage = true
-        }
-    }
+
 }

@@ -1,8 +1,8 @@
 object Version {
     const val appName = "com.louis.baseapp"
 
-    const val kotlin = "1.8.20"
-    const val kotlinCompiler = "1.3.2"
+    const val kotlin = "1.9.0"
+    const val kotlinCompiler = "1.5.0"
     const val gradle = "8.1.0-rc01"
 
     const val targetSDK = 33
@@ -10,7 +10,6 @@ object Version {
 
     const val versiobCode = 1
     const val versionName = "1.0"
-
 
     const val kotlinBom = "1.8.0"
     const val composeBom = "2022.10.00"
