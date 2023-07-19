@@ -1,9 +1,9 @@
 object Version {
     const val appName = "com.louis.baseapp"
 
-    const val kotlin = "1.7.20"
+    const val kotlin = "1.8.20"
     const val kotlinCompiler = "1.3.2"
-    const val gradle = "8.0.2"
+    const val gradle = "8.1.0-rc01"
 
     const val targetSDK = 33
     const val minSDK = 26
