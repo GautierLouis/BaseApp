@@ -17,3 +17,4 @@ rootProject.name = "BaseApp"
 include(":app")
 include(":core")
 include(":feature:login")
+include(":feature:home")
