@@ -18,6 +18,8 @@ object Version {
 
     const val lifecycle = "2.3.1"
     const val composeActivity = "1.5.1"
+    const val koin = "3.4.2"
+    const val koinCompose = "3.4.5"
 }
 
 object Deps {
@@ -33,6 +35,11 @@ object Deps {
     const val composeUIMaterial3 = "androidx.compose.material3:material3"
     const val composeActivity = "androidx.activity:activity-compose:${Version.composeActivity}"
 
+    const val koin = "io.insert-koin:koin-android:${Version.koin}"
+    const val koinWorkManager = "io.insert-koin:koin-androidx-workmanager:${Version.koin}"
+    const val koinCompose = "io.insert-koin:koin-androidx-compose:${Version.koinCompose}"
+    const val koinComposeNavigation = "io.insert-koin:koin-androidx-compose-navigation:${Version.koinCompose}"
+
 }
 
 object DepsTest {
@@ -45,5 +52,9 @@ object DepsTest {
     const val jUnit = "junit:junit:4.13.2"
     const val jUnitAndroid = "androidx.test.ext:junit:1.1.5"
     const val espresso = "androidx.test.espresso:espresso-core:3.5.1"
+
+    const val koinTest = "io.insert-koin:koin-android-test:${Version.koin}"
+    const val jUnit4Koin = "io.insert-koin:koin-test-junit4:${Version.koin}"
+    const val jUnit5Koin = "io.insert-koin:koin-test-junit5:${Version.koin}"
 }
 
