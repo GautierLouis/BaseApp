@@ -49,7 +49,7 @@ android {
 }
 
 dependencies {
-
+    implementation(project(":feature:login"))
     implementation(Deps.kotlinCore)
 
     implementation(platform(Deps.kotlinBom))
@@ -62,6 +62,7 @@ dependencies {
     implementation(Deps.composeUIGraphics)
     implementation(Deps.composeUIToolingPreview)
     implementation(Deps.composeUIMaterial3)
+    implementation("androidx.core:core-ktx:+")
 
     testImplementation(DepsTest.jUnit)
     androidTestImplementation(DepsTest.jUnitAndroid)

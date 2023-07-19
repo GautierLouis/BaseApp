@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "BaseApp"
 include(":app")
+include(":core")
+include(":feature:login")
