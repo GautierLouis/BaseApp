@@ -21,6 +21,7 @@ android {
 }
 
 dependencies {
+
     implementation(project(":feature:login"))
 
     implementation(platform(Deps.kotlinBom))
@@ -33,6 +34,8 @@ dependencies {
     implementation(Deps.composeUIGraphics)
     implementation(Deps.composeUIToolingPreview)
     implementation(Deps.composeUIMaterial3)
+    implementation(Deps.composeNavigation)
+    implementation(Deps.accompanistSystemController)
 
     androidTestImplementation(platform(Deps.composeBom))
     androidTestImplementation(DepsTest.composeJUnit)
