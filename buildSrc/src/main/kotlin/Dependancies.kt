@@ -23,6 +23,9 @@ object Version {
     const val ktor = "2.3.2"
 
     const val dateTime = "0.4.0"
+
+    const val roomVersion = "2.5.0"
+
 }
 
 object Deps {
@@ -58,6 +61,13 @@ object Deps {
 
     const val dateTime = "org.jetbrains.kotlinx:kotlinx-datetime-jvm:${Version.dateTime}"
 
+    const val roomRuntime = "androidx.room:room-runtime:${Version.roomVersion}"
+    const val roomCompiler = "androidx.room:room-compiler:${Version.roomVersion}"
+    const val roomKsp = "androidx.room:room-compiler:${Version.roomVersion}"
+    const val roomKtx = "androidx.room:room-ktx:${Version.roomVersion}"
+    const val roomGuava = "androidx.room:room-guava:${Version.roomVersion}"
+    const val roomPaging = "androidx.room:room-paging:${Version.roomVersion}"
+
 }
 
 object DepsTest {
@@ -76,6 +86,8 @@ object DepsTest {
     const val jUnit5Koin = "io.insert-koin:koin-test-junit5:${Version.koin}"
 
     const val ktorMock = "io.ktor:ktor-client-mock:${Version.ktor}"
+
+    const val roomTest = "androidx.room:room-testing:${Version.roomVersion}"
 
 }
 
