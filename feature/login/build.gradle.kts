@@ -7,7 +7,7 @@ android {
     namespace = "com.louis.feature.login"
 
 }
-
 dependencies {
-    implementation(project(":core"))
+    implementation(project(":data"))
 }
+

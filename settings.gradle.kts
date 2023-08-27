@@ -21,8 +21,9 @@ include(":feature:home")
 
 include(":designsystem")
 
-include(":core")
-include(":core:network")
-include(":core:database")
+include(":data")
+include(":data:network")
+include(":data:database")
 
-include(":data:authentication")
+include(":core")
+include(":core:authentication")

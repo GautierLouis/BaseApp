@@ -9,5 +9,5 @@ android {
 }
 
 dependencies {
-    api(project(":core:network"))
+    api(project(":data:network"))
 }
